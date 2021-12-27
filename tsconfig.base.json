@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-react-firebase-auth-sample-ts/shared-configs": [
+        "libs/shared-configs/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
