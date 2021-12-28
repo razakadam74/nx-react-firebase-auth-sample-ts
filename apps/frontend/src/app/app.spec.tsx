@@ -16,10 +16,4 @@ describe('App', () => {
 
     expect(baseElement).toBeTruthy();
   });
-
-  it('should have home text', () => {
-    const { getByText } = renderApp();
-    expect(getByText('home')).toBeTruthy();
-  });
-
 });
